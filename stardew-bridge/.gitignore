@@ -1,0 +1,47 @@
+# ===== 环境与密钥 =====
+.env
+*.env
+!.env.template
+*.key
+*.pem
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ===== .NET / SMAPI MOD =====
+[Bb]in/
+[Oo]bj/
+*.user
+.vs/
+
+# ===== Node (mcp-server) =====
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# ===== 运行时产物 =====
+audio/
+*.wav
+*.log
+farm_log_*.log
+bridge_data.json
+actions/
+
+# ===== 大文件 / 二进制 =====
+*.zip
+*.apk
+*.STEP
+*.exe
+*.bin
+
+# ===== 编辑器 / 系统 =====
+.qoder/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp

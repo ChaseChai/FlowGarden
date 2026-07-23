@@ -42,3 +42,18 @@ Thumbs.db
 # Temp
 *.tmp
 *.log
+
+# .NET build outputs (defensive; fork's nested .gitignore also covers these)
+[Bb]in/
+[Oo]bj/
+
+# Ring recordings / runtime artifacts
+audio/
+*.wav
+farm_log_*.log
+
+# Embedded/temp source repos (not part of this project)
+_ecc_tmp/
+
+# Vendored fork's own git metadata (renamed aside so vendor source flattens into this repo)
+_git_fork_backup/
