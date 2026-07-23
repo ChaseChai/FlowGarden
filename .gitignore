@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.exe
+*.bin
+
+# Large binary files
+*.apk
+*.STEP
+*.step
+
+# Secrets / env
+.env
+.env.local
+*.key
+
+# Qoder
+.qoder/
+
+# Temp
+*.tmp
+*.log

@@ -1,0 +1,15 @@
+{
+  "name": "ecc-frontend-skills",
+  "displayName": "ECC 前端技能包",
+  "version": "0.1.0",
+  "description": "Frontend skill pack from affaan-m/ECC: design direction, patterns, a11y, slides, design system, liquid glass, interface polish, and the motion skill family.",
+  "descriptionZh": "来自 affaan-m/ECC 的前端技能包：设计方向、工程模式、无障碍、HTML 演示、设计系统、液态玻璃、界面手感打磨与 motion 动效全家族。",
+  "author": { "name": "affaan-m (packaged by Qoder)" },
+  "homepage": "https://github.com/affaan-m/ECC",
+  "repository": "https://github.com/affaan-m/ECC",
+  "logo": "./assets/avatar.svg",
+  "keywords": ["qoder-plugin", "skill", "frontend", "motion", "design"],
+  "category": "developer-tools",
+  "tags": ["skill", "frontend", "design", "motion", "a11y"],
+  "skills": "./skills/"
+}

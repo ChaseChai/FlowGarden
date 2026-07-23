@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>镜园 FlowGarden · 塞尚花园</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.module.js"
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <canvas id="garden" aria-hidden="true"></canvas>
+  <div id="vignette" aria-hidden="true"></div>
+
+  <!-- L6 UI 浮层（花园模式）：天气卡片（§3.4） -->
+  <div class="ui-top-left garden-ui">
+    <div class="state-chip glass" role="status" aria-live="polite">
+      <span id="weatherIcon" aria-hidden="true">☀️</span>
+      <span id="weatherLabel">晴 · 金色</span>
+      <span class="chip-sep" aria-hidden="true"></span>
+      <span id="hudClock" class="num">--:--</span>
+    </div>
+    <div id="hudRules" class="hud-rules glass" title="算法花园规则引擎输出（§3.10.2）"></div>
+  </div>
+
+  <div class="ui-bottom-left garden-ui">
+    <div class="conn glass">
+      <span class="dot dot-ok" aria-hidden="true"></span>
+      <span>戒指桥接 · 演示模式</span>
+    </div>
+  </div>
+
+  <div id="stateToast" class="glass garden-ui" role="status" aria-live="polite">
+    <p id="nexiText"></p>
+    <span class="bubble-sig">—— 镜灵</span>
+  </div>
+
+  <div class="ui-bottom-center garden-ui">
+    <div class="control-bar glass" role="toolbar" aria-label="演示控制">
+      <span id="stateBar" role="group" aria-label="身心状态">
+        <button data-state="deep_focus">☀️ 心流</button>
+        <button data-state="focus" class="active">🌤️ 专注</button>
+        <button data-state="distracted">🌧️ 分心</button>
+        <button data-state="tired">🌅 疲惫</button>
+        <button data-state="rest">😴 休息</button>
+      </span>
+      <span class="divider" aria-hidden="true"></span>
+      <button id="weatherBtn" title="切换花园天气（§3.4）">🌦️ 天气</button>
+      <button id="btn-seed" title="算法重新生成花园（§3.10.5）">🔄 新花园</button>
+      <span class="divider" aria-hidden="true"></span>
+      <button id="btn-focus-mode" class="focus-cta">⏱️ 进入专注</button>
+    </div>
+  </div>
+
+  <!-- ══ 专注模式工作台（§11）：花园退为背景，工作台浮为焦点 ══ -->
+  <section id="workbench" aria-hidden="true" aria-label="专注工作台">
+
+    <!-- 顶部状态栏（§11.4） -->
+    <header class="wb-topbar wb-card glass-dark">
+      <span class="wb-weather">☀️ 晴朗 · 23°C</span>
+      <span class="wb-clock num" id="wb-clock">14:32</span>
+      <span class="wb-focus-time num" id="wb-focus-time">专注 00:00</span>
+      <button id="wb-exit" aria-label="退出专注模式（Esc）">✕ 结束专注</button>
+    </header>
+
+    <!-- 三栏主体（§11.3） -->
+    <div class="wb-grid">
+
+      <!-- 左：待办清单（§11.6） -->
+      <section class="wb-card glass-dark wb-todos" aria-label="今日待办">
+        <h2>📋 今日待办 <span class="todo-progress num" id="todo-progress">1/5</span></h2>
+        <ul id="todo-list" role="group" aria-label="待办列表"></ul>
+
+        <div class="todo-tip" id="todo-tip">
+          <p>💡 <em>镜灵建议：「回复邮件」挪到午休后，上午大脑留给论文。</em></p>
+          <div class="tip-actions">
+            <button id="tip-adopt" class="tip-adopt">采用</button>
+            <button id="tip-ignore">忽略</button>
+          </div>
+        </div>
+
+        <button id="todo-add" class="todo-add">＋ 添加新任务（在下方对话框输入）</button>
+      </section>
+
+      <!-- 中：聚焦计时器（§11.5 · 视觉重心） -->
+      <section class="wb-card glass-dark wb-timer" aria-label="聚焦计时器">
+        <p class="timer-state" id="timer-state">☀️ 深度心流</p>
+        <p class="timer-num num" id="timer-num">00:00</p>
+        <div class="timer-bar" role="progressbar" aria-label="专注目标进度">
+          <div class="timer-bar-fill" id="timer-bar-fill"></div>
+        </div>
+        <p class="timer-left" id="timer-left">还剩 45 分钟</p>
+        <p class="timer-today">🌱 今日已种 <span class="num" id="today-plants">3</span> 株</p>
+      </section>
+
+      <!-- 右：日程时间线（§11.7） -->
+      <section class="wb-card glass-dark wb-schedule" aria-label="今日日程">
+        <h2>📅 今日日程</h2>
+        <div id="timeline" class="timeline"></div>
+      </section>
+    </div>
+
+    <!-- 底部：AI 流式对话条（§11.8） -->
+    <footer class="wb-chat wb-card glass-dark" aria-label="镜灵对话">
+      <div class="chat-display">
+        <span class="chat-avatar" aria-hidden="true">🧚</span>
+        <p id="chat-msg" aria-live="polite"></p>
+      </div>
+      <div class="chat-chips" id="chat-chips"></div>
+      <div class="chat-input-row">
+        <input id="chat-input" type="text" placeholder="打字告诉镜灵，例如：把邮件挪到下午" aria-label="与镜灵对话" />
+        <button id="chat-send" aria-label="发送">发送</button>
+        <button class="chat-mic" aria-label="语音输入（展演由戒指录音触发）" title="展演中由戒指录音触发">🎤</button>
+      </div>
+    </footer>
+  </section>
+
+  <div id="loader" aria-hidden="true">
+    <span class="flower">🌸</span>
+    <p>镜 园</p>
+  </div>
+
+  <div id="fallback" class="hidden">
+    <p>需要支持 WebGL 的浏览器才能进入镜园。</p>
+  </div>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+=== ppt/slides/slide1.xml ===
+Nexday | 重建生活秩序的下一代 AI  | 生活 | 规划师 | Don't just survive the day. Own your next day. | 项目团队 | ： | 第十组 |  Nexday Team | 第  |  页
+
+=== ppt/slides/slide2.xml ===
+我们的现状：一种“失控”的普遍焦虑 | 我们似乎都生活在一种普遍的“失控”感之中，这种焦虑无处不在。 | 🌑 作息崩溃 | 明明知道该睡了，却还是刷手机到凌晨。 | 熬夜成了常态，第二天在疲惫与自责中醒来，生活节奏完全被打乱。 | 💾 收藏夹焦虑 | 收藏了无数干货、教程和书单，却从未真正打开过。 | 知识的囤积并没有带来安全感，反而加剧了“我还没做”的心理负担。 | 🎢 间歇性努力 | 偶尔踌躇满志制定宏大计划，坚持不到三天就放弃。 | 在持续的自我消耗中，信心一点点被磨灭，陷入“决心-失败-自责”的循环。 | 第  |  页
+
+=== ppt/slides/slide3.xml ===
+为什么现有的工具救不了我们？ | 问题如此普遍，为什么哪怕是最先进的工具也无法解决？ | 📅 日历与待办 | 不看即不存在。它们被动等待你去检视，一旦你选择逃避，它们就毫无办法。 | ⏰ 闹钟提醒 | 只提醒时间，不懂情境。无论你在深睡还是专注，它都机械地响起，没有温度。 | 🤖 通用 AI | 聊完即忘，没有责任感。它虽然聪明，但没有长期记忆，更不会对你的人生成果负责。 | 结论：我们不缺冰冷的工具，我们缺一个“主动负责的管家”。 | 第  |  页
+
+=== ppt/slides/slide4.xml ===
+真正的缺失：长期记忆与执行闭环 | 成长不是一次性的对话，而是一个需要闭环的持续过程。 | 🧠 长期记忆 | 记住你的目标与模式 | ⚡ 关键时刻干预 | 偏离轨道时拉你一把 | 🔄 周期复盘 | 分析数据，优化策略 | GROWTH LOOP | 第  |  页
+
+=== ppt/slides/slide5.xml ===
+我们的方案：Nexday | 为了填补这些缺失，我们推出了 Nexday——你的 AI 个人成长秘书。 | Nexday | 具备长期记忆与主动干预能力的 | AI 个人成长秘书 | 👋 活的 (Alive) | 它不是死板的工具 | 它会主动找你 | 🧠 记得一切 | 从不遗忘你的承诺 | 构建完整人生语境 | 🤝 为你负责 | 不只是记录，而是确保执行闭环 | 第  |  页
+
+=== ppt/slides/slide6.xml ===
+核心功能 1：全息长期记忆系统 | 要做到“记得你的一生”，需要全息的语境记忆，而非简单的聊天记录。 | 📚 学历与专业 | 记录你的知识背景与技能树 | 精准推荐适合的学习路径 | ❤️ 长期情绪曲线 | 识别你的情绪周期与压力源 | 在低谷期提供温暖支持 | ⚡ 行为模式 | “你周二下午效率通常很低” | 基于数据的自我认知唤醒 | 🔑 人生关键事件 | 考研、求职、失恋、搬家 | 串联起你的人生里程碑 | Context | 💡 比如：当你深夜说“我累了”，它不是回“早点睡”，而是“是不是因为下周的考研压力？” | 第  |  页
+
+=== ppt/slides/slide7.xml ===
+核心功能 2：主动式干预 | 不仅会记，还会主动干预。像一个真实的朋友那样，在你需要的时候出现。 | 🌙 深夜刷手机 | 监测到你在凌晨 1 点仍在使用娱乐应用。 | Nexday 干预： | 弹出温柔警示：“明天还有早课，现在的快乐是透支明天的精力哦。” | 📅 计划偏离 | 检测到你未完成上午的背单词任务。 | Nexday 干预： | 自动调整日程：“已帮你把任务移到今晚 8 点，那时候你通常比较空。” | 🔔 持续拖延 | 连续三天忽略重要事项提醒。 | Nexday 干预： | 多邻国式“烦人”提醒：“这件事真的很重要，我们现在就做 5 分钟好吗？” | 第  |  页
+
+=== ppt/slides/slide8.xml ===
+核心功能 3：周期复盘与画像进化 | 像导师一样伴随成长，通过数据反馈不断优化你的生活策略。 | Weekly Report | [Data Visualization Area] | 本周概览： | 熬夜率下降 20%，但专注时长不足。建议下周减少娱乐时间。 | 📅 自动触发 | 每周日晚 8 点，自动生成周报，无需手动整理。 | 📊 深度分析 | 识别数据背后的行为模式：“虽然熬夜少了，但白天效率依然不高。” | 🎯 策略迭代 | 给出具体行动指令：“下周尝试番茄工作法，并减少 1 小时游戏时间。” | 第  |  页
+
+=== ppt/slides/slide9.xml ===
+竞品分析：Nexday 的生态位 | 在“记忆深度”与“主动性”的交汇点，我们独占生态位。 | 主动 (Active) | 被动 | 长期记忆 (Long-term) | Notion/ | 谷歌 |  outlook | 日历  | ChatGPT | Nexday | The Sweet Spot | 主动干预 + 全生命周期记忆 | 第  |  页
+
+=== ppt/slides/slide10.xml ===
+商业模式创新：为“记忆”与“关系”付费 | 摒弃传统的工具订阅，采用基于“关系深度”的价值递进模式。 | 基础版 | Free | 30 天短期记忆 | 基础对话 | （ | token | 有限） | 与提醒 | 体验“主动关怀” | RECOMMENDED | 长期记忆版 | ¥0.6 | / | 天 | 无限期全息记忆 | 人生关键事件串联 | 一杯奶茶钱， | 雇佣一位生活秘书 | 深度关系版 | ¥49 | /月 | 深度性格分析报告 | 职业规划辅助 | 优先使用高级模型 | （顶级 | token | 数量） | 第  |  页
+
+=== ppt/slides/slide11.xml ===
+用户故事：Alex 的“重生” | 大三 · 考研 · 重度拖延 | Before | 每天早上立誓要背 100 个单词，结果一整天都在刷视频。 | 到了晚上 12 点，看着空白的进度条，陷入深深的自我厌恶和焦虑中，最后熬夜到两点才睡。 | With Nexday | Day 1: | 记住了他的考研目标与焦虑源。 | Day 15: | 识别到早 10 点效率低，主动建议去运动唤醒状态。 | Day 30: | 建立了稳定的复习节奏，焦虑感消失，掌控感回归。 | ➔ | 第  |  页
+
+=== ppt/slides/slide12.xml ===
+技术架构：为什么我们能做到？ | 我们构建了从感知到行动的完整技术闭环。 | Agent (行动层) | 任务拆解与主动触发 | LLM (认知层) | 推理、对话与语义理解 | Vector DB (记忆层) | 长期记忆存储与检索 | 🛡️ 数据护城河 | Nexday 的核心壁垒在于“越用越懂你”。 | 随着使用时间增长，记忆库越丰富，个性化模型越精准，用户的迁移成本极高。这是单纯的工具类产品无法具备的壁垒。 | 第  |  页
+
+=== ppt/slides/slide13.xml ===
+市场规模与目标人群 | 精准切入高焦虑、强成长需求的年轻群体，市场潜力巨大。 | TAM (Total Addressable Market) | 4000万 | 在校大学生 + | 8000万 | 职场新人 | 📚 考研/考公 | 高压备考人群 | 痛点：自律难，心态易崩 | 价值：全程监督与陪伴 | 🏠 独居青年 | 生活缺乏秩序 | 痛点：生活作息混乱 | 价值：生活节律重建 | 第  |  页
+
+=== ppt/slides/slide14.xml ===
+扩展路径：从 C 端到 B 端 | 当拥有足够的用户行为模型，我们将成为企业人才培养的隐形基础设施。 | C 端用户池 | 海量真实行为数据 | 个人成长模型训练 | 模型迁移 &amp; 能力输出 | B 端企业服务 | 🎓 员工 AI 导师 | 定制化职业技能培养 | 💎 高潜人才识别 | 基于行为习惯而非简历 | 第  |  页
+
+=== ppt/slides/slide15.xml ===
+发展路线图 | 一步一个脚印，从校园迈向更广阔的人生操作系统。 | Phase 1 | 0-6 个月 | 校园种子用户 | 验证长期记忆功能 | 打磨核心体验 | Phase 2 | 6-18 个月 | 职场版扩展 | 推出付费增值服务 | 付费用户突破 10 万 | Phase 3 | 18 个月+ | 人生 OS | 开放 API 生态 | 接入健康与企业系统 | 第  |  页
+
+=== ppt/slides/slide16.xml ===
+营销策略（Go-to-Market） | 采用“网格化校园推广”与“社交裂变”双轮驱动策略。 | 📢 核心动作 | 校园大使计划 | 覆盖 100 所重点高校，建立线下根据地。 | #Nexday打卡挑战# | 社媒病毒式传播，晒出你的“重生”进度条。 | 考研机构合作 | 作为伴学工具植入课程体系，精准获客。 | 第  |  页
+
+=== ppt/slides/slide17.xml ===
+团队介绍（Why |  Us） | 因为我们自己就是用户，我们最懂这种痛 | 。 | 我们是一群 | 追求 | 技术，更拥有“痛感”的团队。我们的产品直觉来自无数个焦虑的深夜 | 。 | 技术合伙人 | 全栈开发 | Tech | 设计 | 旦增曲热  | 2025212615 | 第  |  页 | AI | 算法合伙人 | 吕佳澍 | 2025210189 | 产品合伙人 | 柴子健 | 2025210813 |   |   |   全栈工程合伙人 |           | 樊一玮 |       2025210728
+
+=== ppt/slides/slide18.xml ===
+财务预测与融资需求 | 寻求种子轮融资支持，加速产品落地与市场验证。 | 寻求融资 | 100万 | 人民币 / 孵化器支持 | 资金用途 (Allocation) | 60% 产品研发 | 算力支持、模型微调、架构优化 | 30% 市场推广 | 校园推广、社交媒体投放 | 10% 运营成本 | 服务器运维、日常开支 | 第  |  页
+
+=== ppt/slides/slide19.xml ===
+“让人类不再被琐事消耗，专注创造。” | Nexday 是你的“第二大脑” | 是对抗熵增的武器 | 第  |  页
+
+=== ppt/slides/slide20.xml ===
+Nexday | Let's build the next day together. | 第  |  页
+
+--- NOTES ppt/notesSlides/notesSlide1.xml ---
+1.7.2013 | Welcome everyone. I'm Chase from the Nexday team. Today I want to talk about rebuilding order in our chaotic lives. We are introducing Nexday, the next-generation AI companion designed to help you not just survive, but own your future. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide10.xml ---
+1.7.2013 | We innovate by charging for 'memory' and 'relationship depth'. A free tier for basic interaction, a paid tier for long-term memory (the cost of a bubble tea), and a premium tier for deep relationship insights like personality analysis and career planning. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide11.xml ---
+1.7.2013 | Meet Alex, a junior student struggling with procrastination. Before Nexday, his days were a cycle of big plans and zero execution. With Nexday, it started by remembering his goals. By Day 15, it was actively optimizing his schedule. By Day 30, Alex had regained control. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide12.xml ---
+1.7.2013 | Our tech stack combines Vector DB for long-term memory, LLMs for reasoning, and Agents for action. This creates a powerful moat: the more you use Nexday, the better it understands you, making the cost of leaving incredibly high. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide13.xml ---
+1.7.2013 | Our Total Addressable Market includes 40 million students and 80 million early career professionals. We initially target three high-need segments: exam preppers needing discipline, solitary youth needing routine, and job seekers needing guidance. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide14.xml ---
+1.7.2013 | Our roadmap extends from consumer to business. By training robust growth models on C-side data, we can offer enterprises valuable services: customized AI mentors for employees and talent identification based on actual behavioral patterns, not just resumes. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide15.xml ---
+1.7.2013 | Our roadmap is clear: First, validate the memory core with students. Second, expand to professionals and prove the business model. Third, open up as a true 'Life OS' platform connecting health and enterprise systems. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide16.xml ---
+1.7.2013 | How do we grow? We're deploying a grid-based campus ambassador program, launching viral social challenges like the #NexdayChallenge, and partnering with exam prep institutions to embed Nexday directly into students' study routines. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide17.xml ---
+1.7.2013 | Why us? Because we built this for ourselves. We combine full-stack engineering with psychological insights and operational expertise. We have the empathy to understand the problem and the skills to solve it. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide18.xml ---
+1.7.2013 | We are raising a seed round of 1 million RMB. The majority, 60%, goes directly into R&amp;D for model tuning and compute. 30% drives our market entry, and 10% covers essential operations. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide19.xml ---
+1.7.2013 | Our ultimate vision is simple: liberate humans from the entropy of daily trivialities. Nexday serves as your second brain, fighting the chaos so you can focus on what truly matters—creation. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide2.xml ---
+1.7.2013 | We live in a state of constant anxiety. It manifests in three ways: broken sleep cycles where we doom-scroll until dawn; hoarding information without taking action; and the cycle of intermittent bursts of motivation followed by burnout. It feels like we've lost the steering wheel of our own lives. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide20.xml ---
+1.7.2013 | Thank you. Nexday is more than an app; it's a movement towards a more organized, meaningful life. Let's build the next day together. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide3.xml ---
+1.7.2013 | Why can't current tools save us? Calendars are passive; if you ignore them, they disappear. Alarms are dumb; they don't know your context. Even generic AI lacks accountability; it forgets you once the chat closes. We don't need more tools; we need a butler that takes responsibility. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide4.xml ---
+1.7.2013 | The core missing piece is a closed loop. True growth requires three things: Long-term memory to know who you are, timely intervention when you slip, and periodic review to adjust the course. Most tools only do one; we close the loop. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide5.xml ---
+1.7.2013 | Nexday is not just another app. It's an AI personal growth secretary that is 'Alive'—it initiates contact. It 'Remembers Everything'—building a holographic context of your life. And it is 'Responsible'—it cares about whether you actually did what you said you would. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide6.xml ---
+1.7.2013 | Our Holographic Memory System captures four key dimensions: your academic background, your emotional curves, your behavioral patterns (like knowing you're tired on Tuesdays), and key life events. It understands the context behind your words, not just the text. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide7.xml ---
+1.7.2013 | We intervene actively. Whether it's a gentle nudge when you're doom-scrolling late at night, automatically rescheduling missed tasks, or being persistently annoying like Duolingo when you procrastinate—Nexday steps in to keep you on track. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide8.xml ---
+1.7.2013 | Every Sunday at 8 PM, Nexday generates a review. It's not just data; it's insight. 'Your sleep improved by 20%, but focus is still low.' It then iterates your strategy for the next week, just like a human coach would. | ‹#›
+
+--- NOTES ppt/notesSlides/notesSlide9.xml ---
+1.7.2013 | In the market landscape, we occupy a unique quadrant. While calendars are passive and generic AI has short-term memory, Nexday sits in the top-right: combining active intervention with long-term memory. This is the sweet spot for personal growth. | ‹#›
+
